@@ -3,7 +3,7 @@ browser-harness PoC: 对比 MediaCrawler 现有 CDP 实现
 检查 MediaCrawler 的 CDPBrowserManager 和 browser-harness 的差异
 """
 import sys
-sys.path.insert(0, "/home/haha/workspace/codespace/MediaCrawler")
+sys.path.insert(0, "/home/haha/workspace/MediaCrawler")
 
 # 检查 MediaCrawler 的 CDP 实现结构
 from tools.cdp_browser import CDPBrowserManager
